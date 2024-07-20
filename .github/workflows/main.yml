@@ -14,7 +14,7 @@ jobs:
     runs-on:  ubuntu-latest
     steps:
       #INSTALL NODEJS $ NPM ON VERCEL
-      -  uses: action/checkout@v2
+      #-  uses: action/checkout@v2
       -  name: Install Node.js
          uses:  actions/setup-node@v3
 
